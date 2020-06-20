@@ -1,0 +1,59 @@
+/*
+p {
+    color: blue;
+}
+
+p.ERROR {
+    color: red;
+}
+
+p.SUCCESS.FEEDBACK {
+    color: green;
+    border: 5px solid yellow;
+}
+*/
+#TOP-CONTAINER {
+    background-color: lightgray; 
+}
+
+#BOTTOM-CONTAINER {
+    background-color: lightgreen; 
+}
+
+div .ERROR {
+    color: red;
+}
+
+
+a[href] {
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: yellow;
+}
+
+a[href*="google"] {
+    background-color: lightskyblue;
+}
+
+a[href*="ac.id"] {
+    background-color: lightpink;
+}
+
+a[href*="facebook"] {
+    background-color: greenyellow;
+}
+
+h1:hover {
+    color: blue;
+    background-color: black;
+}
+
+p::selection {
+    background-color: red;
+    color: yellow;
+}
+
+a::before {
+    content: "link -";
+}
