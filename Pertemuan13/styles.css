@@ -1,0 +1,47 @@
+div.nav {
+    width: 0px;
+    height: 0px;
+    background-color: rgb(255, 38, 0);
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: ;
+}
+
+div.container1 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+}
+
+div.container2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 157);
+    position: relative;
+}
+
+
+div.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+div.box2 {
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    
+}
+
+div.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+   
+}
